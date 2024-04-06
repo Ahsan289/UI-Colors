@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+@font-face {
+    font-family: Smooch;
+    src: url(../Fonts/SmoochSans-VariableFont_wght.ttf);
+}
+
+header{
+background-color: #000;
+color: #fff;
+position: sticky;
+}
+.heading{
+    text-align: center;
+    font-family: 'Smooch';
+    font-size: 500%;
+}
+
+.box{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  /* width: 100vw; */
+  height: 100vh;
+  flex-wrap: wrap;
+gap: 10px;
+margin-top: 32px;
+margin-bottom: 32px;
+
+}
+.content{
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 12px;
+    width:20%;
+    height: 30%;
+    transition: 1s;
+    font-size:100%;
+    font-family: 'Smooch';
+    font-weight: bold;
+}
+.content:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-size: 200%;
+    transition: 1s;
+    height: 40%;
+    width: 30%;
+}
+.inner{ 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color1{
+    background-color: blueviolet;
+}
+.color2{
+    background-color: olivedrab;
+}
+.color3{
+    background-color: green;
+}
+.color4{
+    background-color: blue;
+}
+.color5{
+    background-color: brown;
+}
+.color6{
+    background-color: cadetblue;
+}
+.color7{
+    background-color: chartreuse;
+}
+.color8{ 
+    background-color:chocolate;
+}
+.color9{
+    background-color: yellowgreen;
+}
+.color10{
+    background-color: teal;
+}
+.color11{
+    background-color: crimson;
+}
+.color12{
+    background-color: orangered;
+}
+@media only screen and (max-width:768px) {
+    .content{
+        width:35%;
+        height: 13%;
+        font-size: 150;
+    }
+    .content:hover{
+        font-size: 150%;
+        transition: 1s;
+        height: 13%;
+        width: 35%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+}
